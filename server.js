@@ -5,7 +5,7 @@ const app=express()
 app.set('port',9000)
 
 app.get('/',(req,res)=>{
-    res.send('Welcome to my APP')
+    res.send('Welcome to SportMark')
 })
 
 app.listen(app.get('port'),()=>{
